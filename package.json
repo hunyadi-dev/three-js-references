@@ -19,6 +19,7 @@
     "@angular/platform-browser": "~11.2.7",
     "@angular/platform-browser-dynamic": "~11.2.7",
     "@angular/router": "~11.2.7",
+    "cubic-spline": "^3.0.3",
     "dat.gui": "^0.7.7",
     "rxjs": "~6.6.0",
     "stats.js": "^0.17.0",
