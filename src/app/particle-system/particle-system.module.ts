@@ -141,7 +141,7 @@ export class ParticleSystem {
     for (let p of this.particles) {
       const t = 1.0 - p.life / p.maxLife;
 
-      p.alpha = 0.8 - (0.8 * t);
+      p.alpha = 0.08 - (0.08 * t);
       p.currentSize = (1.0 - t) * p.size * 500.0 ;
       p.colour = p.baseColor.clone().multiplyScalar(1.0 - t);
 

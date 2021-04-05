@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { MemoryTestComponent } from './memory-test/memory-test.component';
 import { ParticlesTestComponent } from './particles-test/particles-test.component';
+import { PixiParticlesComponent } from './pixi-particles/pixi-particles.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MemoryTestComponent,
     HomeComponent,
-    ParticlesTestComponent
+    ParticlesTestComponent,
+    PixiParticlesComponent
   ],
   imports: [
     BrowserModule,

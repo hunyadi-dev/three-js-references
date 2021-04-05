@@ -1,0 +1,11 @@
+diff --git a/node_modules/mini-signals/typings/mini-signals.d.ts b/node_modules/mini-signals/typings/mini-signals.d.ts
+index 7214e1d..2e9f324 100644
+--- a/node_modules/mini-signals/typings/mini-signals.d.ts
++++ b/node_modules/mini-signals/typings/mini-signals.d.ts
+@@ -15,6 +15,4 @@ declare module "mini-signals" {
+ 		detach(node: MiniSignal.MiniSignalBinding): MiniSignal;
+ 		detachAll(): MiniSignal;
+ 	}
+-
+-	export = MiniSignal;
+ }

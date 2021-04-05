@@ -57,8 +57,8 @@ export class ParticlesTestComponent implements AfterViewInit, OnDestroy {
     this.particleSystem = new ParticleSystem({ 
       parent: this.scene,
       camera: this.camera,
-      maxNumParticles: 10000,
-      particleGenerationMaxSpeed: 10
+      maxNumParticles: 25000,
+      particleGenerationMaxSpeed: 300
     });
 
     this.sunLight = new THREE.PointLight(0xffffff, 3, 0, 2);
